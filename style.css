@@ -115,6 +115,9 @@ img
     align-items: center;
     transition: 0.4s ease;
 }
+.aboutme-section{
+    overflow: hidden;
+}
 .aboutme{
     color: #0072b1;
     display: flex;
