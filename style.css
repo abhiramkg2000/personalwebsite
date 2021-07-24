@@ -453,16 +453,6 @@ body{
     }
 }
 
-#para1{
-    top: 60%;
-    left: 10%;
-    position: absolute;
-}
-#para2{
-    top: 60%;
-    left: 70%;
-    position: absolute;
-}
 /*timeline*/
 /* The actual timeline (the vertical ruler) */
 .timeline {
