@@ -442,7 +442,8 @@ body{
         margin-left: 0px;
     }
     .aboutme{
-        margin-top: -120px;
+        margin-top: -40px;
+        padding-top: 80px;
     }
     .contain{
         height:12rem;
