@@ -11,6 +11,7 @@ html{
     width: 100%;
     font-family: Century Gothic;
     background-color: #F8B195;
+    overflow-x: hidden;
 }
 body{
     overflow-x: hidden;
