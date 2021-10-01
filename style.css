@@ -23,6 +23,7 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+/*-------------------------------------------------------------------------------Header-Section-Begins------------------------------------------------------------------------------*/
 header{
     max-width: 100%;
 }
@@ -47,6 +48,7 @@ ul li{
     background-color: #343a40;
     border-radius: 20px;
 }
+
 ul li a{
     text-decoration: none;
     font-weight: bold;
@@ -56,11 +58,20 @@ ul li a{
     border-radius: 20px;
     transition: 0.2s ease;
 }
+
 ul li a:hover{
     background-color: #0072b1;
     color:#fff;
     text-decoration: none;
 }
+
+/*ul li.active a{
+    background-color: #0072b1;
+    color: #fff;
+}*/
+/*---------------------------------------------------------------------------------Header-Section-Ends---------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Hero-Section-Starts---------------------------------------------------------------------------------*/
 .hero-section{
     width: 100%;
 }
@@ -82,6 +93,7 @@ ul li a:hover{
     cursor: pointer;
     padding-left: 20px;
 }
+
 .hidden{
     max-width: 0;
     opacity:0;
@@ -115,14 +127,28 @@ img
     justify-content: center;
     align-items: center;
     transition: 0.4s ease;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
+/*---------------------------------------------------------------------------------Hero-Section-Ends---------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Aboutme-Section-Starts----------------------------------------------------------------------------*/
 .aboutme{
+    /*position: relative;
+    color: #0072b1;
+    top: auto;
+    margin: 5%;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    left: 10px;
+    text-align: center;
+    padding-top: 45px;*/
     color: #0072b1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px;
     margin-top:30px;
+    padding-top: 80px;
     width:100%;
 }
 .aboutme h1{
@@ -145,17 +171,25 @@ p{
     text-align: center;
     margin: 0px 20px;
 }
+/*---------------------------------------------------------------------------------Aboutme-Section-Starts----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Education-Section-Starts----------------------------------------------------------------------------*/
 .education-section h1{
     text-align: center;
 }
+/*---------------------------------------------------------------------------------Education-Section-Ends----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Technical-Section-Starts----------------------------------------------------------------------------*/
 .technical-section{
     padding-top: 50px;
-    overflow:hidden;
+    overflow: hidden;
 }
 .technical{
     text-align: center;
     color:#0072b1;
     width:100%;
+    display: flex;
+    justify-content: center;
 }
 .technical-section h1{
     color: #0072b1;
@@ -164,7 +198,11 @@ p{
 }
 .technical p{
     color:#585563;
+    text-align: left;
 }
+/*---------------------------------------------------------------------------------Technical-Section-Ends----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Contact-Section-Starts----------------------------------------------------------------------------*/
 .contact{
     width:100%;
     overflow: hidden;
@@ -179,6 +217,7 @@ p{
     justify-content: center;
     align-items: center;
 }
+
 .social1{
     background-color: #e2e2e2;
     height: 50px;
@@ -197,6 +236,7 @@ p{
 .social1:hover{
     transform: scale(1.15);
 }
+
 .social3{
     background-color:#e2e2e2 ;
     height: 50px;
@@ -207,6 +247,7 @@ p{
     align-items: center;
     transition: 0.5s ease;
     box-shadow: 0 5px 4px rgba(0, 0,0,0.5);
+   
 }
 .social3 .fa-github{
     color: #000;
@@ -218,6 +259,12 @@ p{
 
 /*Type Writing Effect*/
 
+/*body {
+  font-family: 'Montserrat', sans-serif;
+}*/
+/*---------------------------------------------------------------------------------Contact-Section-Ends----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Typewritting-Effect-Starts----------------------------------------------------------------------------*/
 .contain {
     display: flex;
     justify-content: center;
@@ -258,6 +305,9 @@ p{
 .typewriter{
     margin-left: 20px;
 }
+/*---------------------------------------------------------------------------------Typewritting-Effect-Ends----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Navbar-Customization-Starts-------------------------------------------------------------------------*/
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
@@ -282,11 +332,19 @@ p{
     margin-top: 3px;
     list-style: none;
 }
-
-body{
+/*.contentme {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}*/
+/*body{
     background-color: #F8B195;
-}
-.skillbar {
+}*/
+/*---------------------------------------------------------------------------------Navbar-Customization-Ends-------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Skillbar-Customization-Starts----------------------------------------------------------------------*/
+
+/*.skillbar {
     width: 90%;
     background-color: #ddd;
     height: 30px;
@@ -305,17 +363,38 @@ body{
     background-color: #04AA6D;
     border-radius: 20px;
   }
-  .technical p{
-      text-align: left;
-  }
-  
+ 
   .cprogramming {width: 90%;} /* Green */
   .mysql {width: 70%;} /* Blue */
   .html {width: 90%; } /* Red */
   .css {width: 80%; } /* Dark Grey */
   .python {width: 70%;} /* Dark Grey */
   .javascript{width: 60%;}
-  .projects-section{
+  .skill{
+    height:100px;
+    background-color: #343a40;
+    margin:5px 0px;
+  }
+  .skills{
+    font-size: 100px;
+  }
+  .icon{
+    height:100px;
+    width:100%;
+  }
+  @media screen and (max-width:800px) {
+      .skill{
+        width: 200px;
+      }
+      .the{
+        display: flex;
+        justify-content: center;
+      }
+  }
+/*---------------------------------------------------------------------------------Skillbar-Customization-Ends----------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------Projects-Section-Customization-Starts-------------------------------------------------------------*/
+.projects-section{
     width: 100%;
     overflow: hidden;
     margin-top: 60px;
@@ -405,12 +484,13 @@ body{
 .project3:hover{
     transform: translateY(-10px);
 }
+/*---------------------------------------------------------------------------------Projects-Section-Customization-Starts-------------------------------------------------------------*/
 
+/*---------------------------------------------------------------------------------Education-Section-Customization-Starts-------------------------------------------------------------*/
 .education-section{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    overflow: hidden;
 }
 .education-section h1{
     color: #0072b1;
@@ -427,7 +507,15 @@ body{
     font-weight: bold;
     color: #e2e2e2;
 }
+/*.school,.college{
+    margin-top: 20px;
+    width:30%;
+    background-color: #343a40;
+    border-radius: 20px;
+}*/
+/*---------------------------------------------------------------------------Education-Section-Customization-Ends---------------------------------------------------------------------*/
 
+/* --------------------------------------------------------------------------Media Querty starts--------------------------------------------------------------------------------------*/
 @media screen and (max-width: 500px){
     .project1,.project2,.project3
     {
@@ -447,14 +535,62 @@ body{
         padding-top: 80px;
     }
     .contain{
-        height:12rem;
+        height:14rem;
         padding-top: 80px;
     }
     .main{
         overflow-x: hidden;
     }
+    .technical{
+        display: flex;
+        justify-content: center;
+    }
+    .skill{
+        width:200px;
+    }
+}
+/*--------------------------------------------------------------------------Media Query Ends-------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------Preloader-Starts-------------------------------------------------------------------------------------------*/
+.loader-section{
+    background-color: #343a40;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-container{
+    height:140px;
+    width:140px;
+}
+.preloader{
+    width: 100%;
+    height:100%;
+    border: 8px solid #162534;
+    border-radius: 50%;
+    border-top: 8px solid #09f;
+    animation: rotate 5s linear infinite;
 }
 
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*--------------------------------------------------------------------------Preloader-Ends--------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------Education-Timeline-Starts---------------------------------------------------------------------------------*/
+#para1{
+    top: 60%;
+    left: 10%;
+    position: absolute;
+}
+#para2{
+    top: 60%;
+    left: 70%;
+    position: absolute;
+}
 /*timeline*/
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -550,6 +686,7 @@ body{
     border-radius: 20px;
     background-color: #343a40;
   }
+  /*--------------------------------------------------------------------------Education-Timeline-Media-Query-Starts---------------------------------------------------------------------------------*/
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
@@ -586,3 +723,6 @@ body{
         left:0%;
     }
   }
+/*--------------------------------------------------------------------------Education-Timeline-Media-Query-Ends---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------Education-Timeline-Ends---------------------------------------------------------------------------------*/
