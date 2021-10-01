@@ -343,34 +343,7 @@ p{
 /*---------------------------------------------------------------------------------Navbar-Customization-Ends-------------------------------------------------------------------------*/
 
 /*---------------------------------------------------------------------------------Skillbar-Customization-Starts----------------------------------------------------------------------*/
-
-/*.skillbar {
-    width: 90%;
-    background-color: #ddd;
-    height: 30px;
-    margin-left: 10px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
-  .skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #e2e2e2;
-    height: 30px;
-    line-height: 10px;
-    font-size: 25px;
-    background-color: #04AA6D;
-    border-radius: 20px;
-  }
-*/
-  .cprogramming {width: 90%;} /* Green */
-  .mysql {width: 70%;} /* Blue */
-  .html {width: 90%; } /* Red */
-  .css {width: 80%; } /* Dark Grey */
-  .python {width: 70%;} /* Dark Grey */
-  .javascript{width: 60%;}
-  .skill{
+.skill{
     height:100px;
     background-color: #343a40;
     margin:5px 0px;
