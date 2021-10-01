@@ -315,7 +315,7 @@ body{
   .css {width: 80%; } /* Dark Grey */
   .python {width: 70%;} /* Dark Grey */
   .javascript{width: 60%;}
-.projects-section{
+  .projects-section{
     width: 100%;
     overflow: hidden;
     margin-top: 60px;
@@ -375,6 +375,7 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 4px black;
     transition: 0.3s ease;
+    cursor:none;
 }
 .project1:hover{
     transform: translateY(-10px);
