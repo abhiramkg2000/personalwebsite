@@ -375,7 +375,6 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 4px black;
     transition: 0.3s ease;
-    cursor:none;
 }
 .project1:hover{
     transform: translateY(-10px);
