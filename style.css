@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.main{
+
+.main {
     width: 100%;
     font-family: Century Gothic;
     background-color: #F8B195;
     overflow-x: hidden;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,25 +27,34 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+
 /*-------------------------------------------------------------------------------Header-Section-Begins------------------------------------------------------------------------------*/
-header{
+
+header {
     max-width: 100%;
 }
-.navbar{
-    width:100%;
+
+.navbar {
+    width: 100%;
     margin-bottom: 15px;
     width: 100%;
 }
-dl, ol, ul {
+
+dl,
+ol,
+ul {
     margin-top: 0;
     padding-bottom: 20px;
     margin-bottom: 1rem;
 }
-ul{
+
+ul {
     float: right;
     list-style-type: none;
 }
-ul li{
+
+ul li {
     display: inline-block;
     margin-top: 15px;
     margin-left: 20px;
@@ -49,44 +62,46 @@ ul li{
     border-radius: 20px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
     font-size: 17px;
     padding: 5px 25px;
     border-radius: 20px;
     transition: 0.2s ease;
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: #0072b1;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 }
 
-/*ul li.active a{
-    background-color: #0072b1;
-    color: #fff;
-}*/
+
 /*---------------------------------------------------------------------------------Header-Section-Ends---------------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Hero-Section-Starts---------------------------------------------------------------------------------*/
-.hero-section{
+
+.hero-section {
     width: 100%;
 }
-.intro{
+
+.intro {
     height: 100%;
     overflow: hidden;
     margin-top: 70px;
-    width:100%;
+    width: 100%;
 }
-.middle{
+
+.middle {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.title{
+
+.title {
     color: #0072b1;
     font-size: 3.7rem;
     font-weight: 900;
@@ -94,35 +109,35 @@ ul li a:hover{
     padding-left: 20px;
 }
 
-.hidden{
+.hidden {
     max-width: 0;
-    opacity:0;
+    opacity: 0;
     transition: 0.5s ease-in;
 }
-.title:hover .hidden{
+
+.title:hover .hidden {
     opacity: 1;
     max-width: 1em;
 }
-.image-background{
+
+.image-background {
     position: absolute;
     width: 300px;
     height: 300px;
     border-radius: 20px;
-    transform: rotate(
-27deg
-);
+    transform: rotate( 27deg);
     top: 30%;
     left: 40%;
     background-color: #343a40;
     z-index: 1;
     overflow: hidden;
 }
-img
-{
+
+img {
     z-index: 1;
 }
 
-.image{
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,40 +145,39 @@ img
     transform-style: preserve-3d;
     transform: perspective(1000px);
 }
+
+
 /*---------------------------------------------------------------------------------Hero-Section-Ends---------------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Aboutme-Section-Starts----------------------------------------------------------------------------*/
-.aboutme{
-    /*position: relative;
-    color: #0072b1;
-    top: auto;
-    margin: 5%;
-    border: 2px solid black;
-    margin-bottom: 50px;
-    left: 10px;
-    text-align: center;
-    padding-top: 45px;*/
+
+.aboutme {
     color: #0072b1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top:30px;
+    margin-top: 30px;
     padding-top: 80px;
-    width:100%;
+    width: 100%;
 }
-.aboutme h1{
+
+.aboutme h1 {
     color: #0072b1;
     text-align: center;
 }
-.aboutme p{
+
+.aboutme p {
     display: inline-block;
     text-align: left;
 }
-.about-me-image{
+
+.about-me-image {
     display: flex;
     justify-content: center;
 }
-p{
+
+p {
     color: rgb(88, 85, 99);
     font-family: "Century Gothic";
     font-size: 22px;
@@ -171,54 +185,71 @@ p{
     text-align: center;
     margin: 0px 20px;
 }
+
+
 /*---------------------------------------------------------------------------------Aboutme-Section-Starts----------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Education-Section-Starts----------------------------------------------------------------------------*/
-.education-section h1{
+
+.education-section h1 {
     text-align: center;
 }
+
+
 /*---------------------------------------------------------------------------------Education-Section-Ends----------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Technical-Section-Starts----------------------------------------------------------------------------*/
-.technical-section{
+
+.technical-section {
     padding-top: 50px;
     overflow: hidden;
 }
-.technical{
+
+.technical {
     text-align: center;
-    color:#0072b1;
-    width:100%;
+    color: #0072b1;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-.technical-section h1{
+
+.technical-section h1 {
     color: #0072b1;
     text-align: center;
     margin-top: 20px;
 }
-.technical p{
-    color:#585563;
+
+.technical p {
+    color: #585563;
     text-align: left;
 }
+
+
 /*---------------------------------------------------------------------------------Technical-Section-Ends----------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Contact-Section-Starts----------------------------------------------------------------------------*/
-.contact{
-    width:100%;
+
+.contact {
+    width: 100%;
     overflow: hidden;
     height: 120px;
-}    
-.contact h1{
+}
+
+.contact h1 {
     color: #0072b1;
     text-align: center;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social1{
+.social1 {
     background-color: #e2e2e2;
     height: 50px;
     width: 50px;
@@ -227,18 +258,20 @@ p{
     justify-content: center;
     align-items: center;
     transition: 0.5s ease;
-    box-shadow: 0 5px 4px rgba(0, 0,0,0.5);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-.social1 .fa-linkedin-in{
+
+.social1 .fa-linkedin-in {
     color: #1a0dab;
     background-color: #e2e2e2;
 }
-.social1:hover{
+
+.social1:hover {
     transform: scale(1.15);
 }
 
-.social3{
-    background-color:#e2e2e2 ;
+.social3 {
+    background-color: #e2e2e2;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -246,25 +279,24 @@ p{
     justify-content: center;
     align-items: center;
     transition: 0.5s ease;
-    box-shadow: 0 5px 4px rgba(0, 0,0,0.5);
-   
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-.social3 .fa-github{
+
+.social3 .fa-github {
     color: #000;
     background-color: #e2e2e2;
 }
-.social3:hover{
+
+.social3:hover {
     transform: scale(1.15);
 }
 
-/*Type Writing Effect*/
 
-/*body {
-  font-family: 'Montserrat', sans-serif;
-}*/
 /*---------------------------------------------------------------------------------Contact-Section-Ends----------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Typewritting-Effect-Starts----------------------------------------------------------------------------*/
+
 .contain {
     display: flex;
     justify-content: center;
@@ -273,41 +305,61 @@ p{
     width: 100%;
     padding-bottom: 120px;
 }
+
 .contain p {
-  font-size: 55px;
-  color: #0072b1;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  overflow: hidden;
+    font-size: 55px;
+    color: #0072b1;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
 }
+
 .contain p span.typed-text {
-  font-weight: normal;
-  color:#fff;
+    font-weight: normal;
+    color: #fff;
 }
+
 .contain p span.cursor {
-  display: inline-block;
-  background-color:#000;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 1s infinite;
+    display: inline-block;
+    background-color: #000;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
 }
+
 .contain p span.cursor.typing {
-  animation: none;
+    animation: none;
 }
+
 @keyframes blink {
-  0%  { background-color: #000; }
-  49% { background-color: #000; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #000; }
+    0% {
+        background-color: #000;
+    }
+    49% {
+        background-color: #000;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #000;
+    }
 }
-.typewriter{
+
+.typewriter {
     margin-left: 20px;
 }
+
+
 /*---------------------------------------------------------------------------------Typewritting-Effect-Ends----------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Navbar-Customization-Starts-------------------------------------------------------------------------*/
+
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
@@ -319,6 +371,7 @@ p{
     align-items: center;
     margin-top: 3px;
 }
+
 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -332,71 +385,79 @@ p{
     margin-top: 3px;
     list-style: none;
 }
-/*.contentme {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-}*/
-/*body{
-    background-color: #F8B195;
-}*/
+
+
 /*---------------------------------------------------------------------------------Navbar-Customization-Ends-------------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Skillbar-Customization-Starts----------------------------------------------------------------------*/
-.skill{
-    height:100px;
+
+.skill {
+    height: 100px;
     background-color: #343a40;
-    margin:5px 0px;
-  }
-  .skills{
+    margin: 5px 0px;
+}
+
+.skills {
     font-size: 100px;
-  }
-  .icon{
-    height:100px;
-    width:100%;
-  }
-  @media screen and (max-width:800px) {
-      .skill{
+}
+
+.icon {
+    height: 100px;
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .skill {
         width: 200px;
-      }
-      .the{
+    }
+    .the {
         display: flex;
         justify-content: center;
-      }
-  }
+    }
+}
+
+
 /*---------------------------------------------------------------------------------Skillbar-Customization-Ends----------------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Projects-Section-Customization-Starts-------------------------------------------------------------*/
-.projects-section{
+
+.projects-section {
     width: 100%;
     overflow: hidden;
     margin-top: 60px;
 }
-.projects-section h1{
+
+.projects-section h1 {
     color: #0072b1;
     text-align: center;
     font-family: Century Gothic;
     padding-top: 50px;
 }
-.projects{
+
+.projects {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.projects h1{
+
+.projects h1 {
     color: #e2e2e2;
     background-color: #343a40;
     text-align: center;
     position: relative;
-    top:20px;
+    top: 20px;
     text-decoration: underline;
     padding-top: 10px;
 }
-.projects p{
+
+.projects p {
     padding-top: 20px;
     text-align: left;
     color: #e2e2e2;
 }
+
 .projects-link {
     position: absolute;
     top: 85%;
@@ -404,176 +465,182 @@ p{
     display: flex;
     justify-content: center;
 }
+
 .project-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#e2e2e2 ;
+    background-color: #e2e2e2;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    box-shadow: 0 5px 4px rgba(0, 0,0,0.5);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-.project-link .fa-github{
+
+.project-link .fa-github {
     color: #000;
     background-color: #e2e2e2;
 }
-.project1{
+
+.project1 {
     position: relative;
     width: 400px;
-    height:500px;
+    height: 500px;
     background-color: #343a40;
     margin: 20px 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 4px black;
     transition: 0.3s ease;
 }
-.project1:hover{
+
+.project1:hover {
     transform: translateY(-10px);
 }
-.project2{
+
+.project2 {
     position: relative;
     width: 400px;
-    height:500px;
+    height: 500px;
     background-color: #343a40;
     margin: 20px 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 4px black;
     transition: 0.3s ease;
 }
-.project2:hover{
+
+.project2:hover {
     transform: translateY(-10px);
 }
-.project3{
+
+.project3 {
     position: relative;
     width: 400px;
-    height:500px;
+    height: 500px;
     background-color: #343a40;
-    margin:20px 10px;
+    margin: 20px 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 4px black;
     transition: 0.3s ease;
 }
-.project3:hover{
+
+.project3:hover {
     transform: translateY(-10px);
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
 /*---------------------------------------------------------------------------------Projects-Section-Customization-Starts-------------------------------------------------------------*/
 
+
 /*---------------------------------------------------------------------------------Education-Section-Customization-Starts-------------------------------------------------------------*/
-.education-section{
+
+.education-section {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
 }
-.education-section h1{
+
+.education-section h1 {
     color: #0072b1;
     text-align: center;
 }
+
 .education-section p {
     text-align: left;
     color: #e2e2e2;
     margin-left: 0;
     margin-right: 0;
+    font-size: 1.2rem;
 }
+
 .education-section h2 {
-    font-size: 28px;
     font-weight: bold;
+    font-size: 1.4rem;
     color: #e2e2e2;
 }
-/*.school,.college{
-    margin-top: 20px;
-    width:30%;
-    background-color: #343a40;
-    border-radius: 20px;
-}*/
+
+
 /*---------------------------------------------------------------------------Education-Section-Customization-Ends---------------------------------------------------------------------*/
 
+
 /* --------------------------------------------------------------------------Media Querty starts--------------------------------------------------------------------------------------*/
-@media screen and (max-width: 500px){
-    .project1,.project2,.project3
-    {
+
+@media screen and (max-width: 500px) {
+    .project1,
+    .project2,
+    .project3 {
         width: 80%;
-        margin-left: 45px;
     }
-    .about-me-image img{
-        width:100%;
-        height:300px;
+    .about-me-image img {
+        width: 100%;
+        height: 300px;
     }
-    .contain p{
+    .contain p {
         font-size: 48px;
         margin-left: 0px;
     }
-    .aboutme{
+    .aboutme {
         margin-top: -40px;
         padding-top: 80px;
     }
-    .contain{
-        height:14rem;
+    .contain {
+        height: 14rem;
         padding-top: 80px;
     }
-    .main{
+    .main {
         overflow-x: hidden;
     }
-    .technical{
+    .technical {
         display: flex;
         justify-content: center;
     }
-    .skill{
-        width:200px;
+    .skill {
+        width: 200px;
+    }
+    .the {
+        display: flex;
+        justify-content: center;
     }
 }
+
+
 /*--------------------------------------------------------------------------Media Query Ends-------------------------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------------------------Preloader-Starts-------------------------------------------------------------------------------------------*/
-.loader-section{
-    background-color: #343a40;
-    width: 100%;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.loader-container{
-    height:140px;
-    width:140px;
-}
-.preloader{
-    width: 100%;
-    height:100%;
-    border: 8px solid #162534;
-    border-radius: 50%;
-    border-top: 8px solid #09f;
-    animation: rotate 5s linear infinite;
-}
-
-@keyframes rotate{
-    100%{
-        transform: rotate(360deg);
-    }
-}
-/*--------------------------------------------------------------------------Preloader-Ends--------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------------Education-Timeline-Starts---------------------------------------------------------------------------------*/
-#para1{
+
+#para1 {
     top: 60%;
     left: 10%;
     position: absolute;
 }
-#para2{
+
+#para2 {
     top: 60%;
     left: 70%;
     position: absolute;
 }
+
+
 /*timeline*/
+
+
 /* The actual timeline (the vertical ruler) */
+
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  /* The actual timeline (the vertical ruler) */
-  .timeline::after {
+}
+
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline::after {
     content: '';
     position: absolute;
     width: 6px;
@@ -582,20 +649,22 @@ p{
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-  }
-  
-  /* Container around content */
-  .container {
+}
+
+
+/* Container around content */
+
+.container {
     padding: 10px 40px;
     position: relative;
-    /*background-color: inherit;
-    background-color: #343a40;*/
     width: 50%;
     border-radius: 20px;
-  }
-  
-  /* The circles on the timeline */
-  .container::after {
+}
+
+
+/* The circles on the timeline */
+
+.container::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -606,20 +675,26 @@ p{
     top: 15px;
     border-radius: 50%;
     z-index: 1;
-  }
-  
-  /* Place the container to the left */
-  .left {
+}
+
+
+/* Place the container to the left */
+
+.left {
     left: -25.5%;
-  }
-  
-  /* Place the container to the right */
-  .right {
+}
+
+
+/* Place the container to the right */
+
+.right {
     left: 25.3%;
-  }
-  
-  /* Add arrows to the left container (pointing right) */
-  .left::before {
+}
+
+
+/* Add arrows to the left container (pointing right) */
+
+.left::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -630,10 +705,12 @@ p{
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
-  }
-  
-  /* Add arrows to the right container (pointing left) */
-  .right::before {
+}
+
+
+/* Add arrows to the right container (pointing left) */
+
+.right::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -644,58 +721,61 @@ p{
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
-  }
-  
-  /* Fix the circle for containers on the right side */
-  .right::after {
+}
+
+
+/* Fix the circle for containers on the right side */
+
+.right::after {
     left: -16px;
-  }
-  
-  /* The actual content */
-  .content {
-    padding: 20px 30px;
-    /*background-color: white;*/
+}
+
+
+/* The actual content */
+
+.content {
+    padding: 10px 10px 10px 5px;
     position: relative;
     border-radius: 20px;
     background-color: #343a40;
-  }
-  /*--------------------------------------------------------------------------Education-Timeline-Media-Query-Starts---------------------------------------------------------------------------------*/
-  
-  /* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-    .timeline::after {
-      left: 31px;
-    }
-  
-  /* Full-width containers */
-    .container {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
-    }
-  
-  /* Make sure that all arrows are pointing leftwards */
-    .container::before {
-      left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
-    }
-  
-  /* Make sure all circles are at the same spot */
-    .left::after, .right::after {
-      left: 18px;
-    }
-  
-  /* Make all right containers behave like the left ones */
-    .right {
-      left: 0%;
-    }
-    .left{
-        left:0%;
-    }
-  }
-/*--------------------------------------------------------------------------Education-Timeline-Media-Query-Ends---------------------------------------------------------------------*/
+}
 
-/*--------------------------------------------------------------------------Education-Timeline-Ends---------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------Education-Timeline-Media-Query-Starts---------------------------------------------------------------------------------*/
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+    /* Full-width containers */
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 18px;
+    }
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+    .left {
+        left: 0%;
+    }
+}
+
+/*--------------------------------------------------------------------------Education-Timeline-Media-Query-Ends---------------------------------------------------------------------*/
