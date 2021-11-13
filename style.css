@@ -395,7 +395,14 @@ p {
 .skill {
     height: 100px;
     background-color: #343a40;
-    margin: 5px 0px;
+    margin: 8px 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px black;
+    transition: 0.5s ease;
+}
+
+.skill:hover {
+    transform: scale(1.06);
 }
 
 .skills {
@@ -482,7 +489,7 @@ p {
     background-color: #e2e2e2;
 }
 
-.project1 {
+.projectcard {
     position: relative;
     width: 400px;
     height: 500px;
@@ -493,37 +500,7 @@ p {
     transition: 0.3s ease;
 }
 
-.project1:hover {
-    transform: translateY(-10px);
-}
-
-.project2 {
-    position: relative;
-    width: 400px;
-    height: 500px;
-    background-color: #343a40;
-    margin: 20px 10px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 4px black;
-    transition: 0.3s ease;
-}
-
-.project2:hover {
-    transform: translateY(-10px);
-}
-
-.project3 {
-    position: relative;
-    width: 400px;
-    height: 500px;
-    background-color: #343a40;
-    margin: 20px 10px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 4px black;
-    transition: 0.3s ease;
-}
-
-.project3:hover {
+.projectcard:hover {
     transform: translateY(-10px);
 }
 
@@ -531,7 +508,6 @@ p {
     display: flex;
     justify-content: center;
 }
-
 
 /*---------------------------------------------------------------------------------Projects-Section-Customization-Starts-------------------------------------------------------------*/
 
