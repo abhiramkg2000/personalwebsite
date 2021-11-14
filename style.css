@@ -546,9 +546,7 @@ p {
 /* --------------------------------------------------------------------------Media Querty starts--------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 500px) {
-    .project1,
-    .project2,
-    .project3 {
+    .projectcard {
         width: 80%;
     }
     .about-me-image img {
