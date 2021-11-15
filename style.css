@@ -516,6 +516,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .education-section h1 {
