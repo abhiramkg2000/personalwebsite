@@ -7,17 +7,14 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-.main {
-    width: 100%;
-    font-family: Century Gothic;
-    background-color: #F8B195;
-    overflow-x: hidden;
+    scroll-padding-top: 25px;
 }
 
 body {
     overflow-x: hidden;
+    background-color: #F8B195;
+    width: 100%;
+    font-family: Century Gothic;
 }
 
 .row {
@@ -90,7 +87,7 @@ ul li a:hover {
 
 .intro {
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     margin-top: 70px;
     width: 100%;
 }
@@ -130,7 +127,7 @@ ul li a:hover {
     left: 40%;
     background-color: #343a40;
     z-index: 1;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img {
@@ -234,7 +231,7 @@ p {
 
 .contact {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     height: 120px;
 }
 
@@ -312,7 +309,7 @@ p {
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .contain p span.typed-text {
@@ -509,6 +506,7 @@ p {
     justify-content: center;
 }
 
+
 /*---------------------------------------------------------------------------------Projects-Section-Customization-Starts-------------------------------------------------------------*/
 
 
@@ -554,7 +552,7 @@ p {
         height: 300px;
     }
     .contain p {
-        font-size: 48px;
+        font-size: 42px;
         margin-left: 0px;
     }
     .aboutme {
@@ -586,18 +584,6 @@ p {
 
 
 /*--------------------------------------------------------------------------Education-Timeline-Starts---------------------------------------------------------------------------------*/
-
-#para1 {
-    top: 60%;
-    left: 10%;
-    position: absolute;
-}
-
-#para2 {
-    top: 60%;
-    left: 70%;
-    position: absolute;
-}
 
 
 /*timeline*/
@@ -751,5 +737,6 @@ p {
         left: 0%;
     }
 }
+
 
 /*--------------------------------------------------------------------------Education-Timeline-Media-Query-Ends---------------------------------------------------------------------*/
