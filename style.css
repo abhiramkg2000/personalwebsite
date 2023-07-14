@@ -322,7 +322,7 @@ p {
 
 .contain p span.cursor {
     display: inline-block;
-    background-color: #0072b1;
+    background-color: #fff;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
@@ -330,15 +330,14 @@ p {
 
 .contain p span.cursor.typing {
     animation: none;
-    color: #0072b1;
 }
 
 @keyframes blink {
     0% {
-        background-color: #000;
+        background-color: #fff;
     }
     49% {
-        background-color: #000;
+        background-color: #fff;
     }
     50% {
         background-color: transparent;
@@ -347,7 +346,7 @@ p {
         background-color: transparent;
     }
     100% {
-        background-color: #000;
+        background-color: #fff;
     }
 }
 
