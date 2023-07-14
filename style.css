@@ -395,23 +395,21 @@ p {
 .skill {
     height: 100px;
     background-color: #343a40;
-    margin: 8px 0px;
+    margin: 8px;
     border-radius: 15px;
     box-shadow: 5px 5px 4px black;
     transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill:hover {
     transform: scale(1.06);
 }
 
-.skills {
-    font-size: 100px;
-}
-
-.icon {
-    height: 100px;
-    width: 100%;
+.skill img{
+    width:150px;
 }
 
 @media screen and (max-width:800px) {
