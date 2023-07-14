@@ -549,7 +549,7 @@ p {
 
 @media screen and (max-width: 500px) {
     .projectcard {
-        width: 80%;
+        width: 85%;
     }
     .about-me-image img {
         width: 100%;
