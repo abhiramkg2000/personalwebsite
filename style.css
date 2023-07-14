@@ -143,12 +143,6 @@ img {
     transform: perspective(1000px);
 }
 
-.cursor{
-    color: #0072b1;
-}
-.cursor.typing{
-    background-color: #0072b1;
-}
 
 /*---------------------------------------------------------------------------------Hero-Section-Ends---------------------------------------------------------------------------------*/
 
@@ -328,7 +322,7 @@ p {
 
 .contain p span.cursor {
     display: inline-block;
-    background-color: #000;
+    background-color: #0072b1;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
