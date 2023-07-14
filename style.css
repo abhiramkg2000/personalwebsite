@@ -330,6 +330,7 @@ p {
 
 .contain p span.cursor.typing {
     animation: none;
+    color: #0072b1;
 }
 
 @keyframes blink {
