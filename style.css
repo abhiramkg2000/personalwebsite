@@ -38,6 +38,10 @@ p {
     margin: 0px 20px;
 }
 
+img{
+    pointer-events: none;
+}
+
 /*---------------------------------------------------------------------------------Common-CSS-Ends----------------------------------------------------------------------------------*/
 
 
@@ -175,7 +179,7 @@ ul li a:hover {
     z-index: 1;
 } */
 
-.profile-image {
+.profile-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
