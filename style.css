@@ -1,6 +1,5 @@
 /*---------------------------------------------------------------------------------Common-CSS-Begins--------------------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,7 @@ body {
     overflow-x: hidden;
     background-color: #F8B195;
     width: 100%;
-    font-family: Century Gothic;
+    font-family: "Century Gothic", sans-serif;
 }
 
 .row {
@@ -31,7 +30,6 @@ body {
 
 p {
     color: rgb(88, 85, 99);
-    font-family: "Century Gothic";
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -578,7 +576,6 @@ ul li a:hover {
 .projects-section h1 {
     color: #0072b1;
     text-align: center;
-    font-family: Century Gothic;
     /* padding-top: 50px; */
 }
 
