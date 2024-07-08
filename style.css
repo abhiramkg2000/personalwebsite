@@ -1,4 +1,5 @@
 /*---------------------------------------------------------------------------------Common CSS Begins--------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -17,7 +18,7 @@ body {
     overflow-x: hidden;
     background-color: #F8B195;
     width: 100%;
-    font-family: "Century Gothic", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .row {
@@ -30,7 +31,7 @@ body {
 
 p {
     color: rgb(88, 85, 99);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     margin: 0px 20px;
@@ -69,7 +70,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     color: #fff;
     font-size: 17px;
     padding: 5px 25px;
@@ -270,7 +271,7 @@ ul li a:hover {
 
 .education-section h2 {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #e2e2e2;
 }
 
@@ -279,7 +280,6 @@ ul li a:hover {
     color: #e2e2e2;
     margin-left: 0;
     margin-right: 0;
-    font-size: 1.2rem;
 }
 
 /*---------------------------------------------------------------------------------Education Section Customization Ends--------------------------------------------------------------*/
@@ -309,6 +309,7 @@ ul li a:hover {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
+    z-index: -1;
 }
 
 
@@ -673,9 +674,6 @@ ul li a:hover {
 /* --------------------------------------------------------------------------------Media Querty starts------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 500px) {
-    p{
-        font-size: 20px;
-    }
     .aboutme {
         margin-top: -40px;
         padding-top: 80px;
